@@ -10,10 +10,6 @@ dependencies:
     repository: file://../postgres
     version: 0.1.0
     condition: global.postgres.enabled
-  - name: elasticsearch
-    repository: file://../elasticsearch
-    version: 0.1.0
-    condition: global.elasticsearch.enabled
   - name: influx
     repository: file://../influx
     version: 0.1.0

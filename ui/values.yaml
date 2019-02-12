@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: hydrosphere/serving-manager-ui
-  tag: latest
+  tag: api-v2
   pullPolicy: Always
 
 service:

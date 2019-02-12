@@ -20,7 +20,7 @@ global:
 
 image:
   repository: hydrosphere/serving-manager
-  tag: latest
+  tag: api-v2
   pullPolicy: Always
 
 service:
